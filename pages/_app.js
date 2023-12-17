@@ -3,9 +3,14 @@ import React, { useEffect, useState } from "react";
 export const AuthContext = React.createContext();
 
 export default function App({ Component, pageProps }) {
+  const [btn1, setbtn1] = useState(true);
+  const [btn2, setbtn2] = useState(true);
 
   const contextValue = {
-
+    btn1,
+    btn2,
+    setbtn1,
+    setbtn2,
   };
 
   return (
