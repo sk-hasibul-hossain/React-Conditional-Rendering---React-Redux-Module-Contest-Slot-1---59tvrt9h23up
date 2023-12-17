@@ -7,10 +7,10 @@ export default function App({ Component, pageProps }) {
   const [btn2, setbtn2] = useState(true);
 
   const contextValue = {
-    btn1,
-    btn2,
-    setbtn1,
-    setbtn2,
+    btn1:btn1,
+    btn1:btn2,
+    sebtn1:setbtn1,
+    setbtn2:setbtn2,
   };
 
   return (
